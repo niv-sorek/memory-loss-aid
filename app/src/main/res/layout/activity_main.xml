@@ -1,0 +1,126 @@
+<!-- Home page - wireframe -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/home_page_w"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_vertical"
+    android:background="#F2F2F2"
+    android:gravity="center"
+    android:orientation="vertical">
+    <!-- Rectangle 49 -->
+    <!-- Vector 15 -->
+    <TextView
+        android:id="@+id/main_TXT_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="-20dp"
+        android:fontFamily="@font/font_metropolis_black"
+        android:text="@string/some_id"
+        android:textColor="#393939"
+        android:textSize="80sp" />
+
+    <TextView
+        android:id="@+id/main_TXT_dayname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/font_metropolis_black"
+        android:text="@string/dayname_example"
+        android:textColor="#393939"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/main_TXT_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/font_metropolis_black"
+        android:text="@string/location_example"
+        android:textColor="#393939"
+        android:textFontWeight="800"
+        android:textSize="17sp" />
+
+    <include
+        android:id="@+id/main_VIEW_home1"
+        layout="@layout/house_block"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp" />
+
+    <include
+        android:id="@+id/main_VIEW_home2"
+        layout="@layout/house_block"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp" />
+
+    <include
+        android:id="@+id/main_VIEW_home3"
+        layout="@layout/house_block"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp" />
+
+    <include
+        android:id="@+id/main_VIEW_home4"
+        layout="@layout/house_block"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp" />
+
+    <include
+        android:id="@+id/main_VIEW_home5"
+        layout="@layout/house_block"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/main_TXT_things"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/white_box"
+            android:fontFamily="@font/font_metropolis_black"
+            android:paddingVertical="5dp"
+            android:paddingHorizontal="10dp"
+
+            android:text="Things i need to know for today" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/main_TXT_things">
+
+            <TextView
+                android:id="@+id/main_TXT_question"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_below="@id/main_TXT_things"
+                android:background="@drawable/white_box"
+                android:fontFamily="@font/font_metropolis_black"
+                android:gravity="center"
+                android:padding="3dp"
+                android:text="@string/example_question"
+                android:textAlignment="center" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/main_TXT_things"
+                android:layout_marginStart="35dp"
+                android:layout_toEndOf="@id/main_TXT_question"
+                android:background="@drawable/white_box"
+                android:padding="5dp"
+                android:src="@drawable/ic_camera" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</LinearLayout>
+
+

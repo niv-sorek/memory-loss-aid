@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/home_page_w"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+    <View
+        android:id="@+id/vector_15"
+        android:layout_width="162.67dp"
+        android:layout_height="13dp"
+
+android:layout_marginBottom="-10dp"
+        android:background="@drawable/vector_15" />
+    <!-- Rectangle 49 -->
+    <View
+        android:id="@+id/rectangle_4"
+        android:layout_width="90.95dp"
+        android:layout_height="65dp"
+        android:layout_below="@id/vector_15"
+
+        android:background="@drawable/rectangle_4" />
+    <!-- Rectangle 50 -->
+    <View
+        android:id="@+id/rectangle_5"
+        android:layout_width="71.13dp"
+        android:layout_height="65dp"
+        android:layout_below="@id/vector_15"
+
+        android:layout_toRightOf="@+id/rectangle_4"
+        android:background="@drawable/rectangle_5" />
+
+</RelativeLayout>

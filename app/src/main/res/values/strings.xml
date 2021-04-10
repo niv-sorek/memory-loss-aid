@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Gal</string>
+    <string name="thing_i_nee">
+
+        thing I need to know for today\n
+    </string>
+    <string name="hatibonim_3">
+
+        Hatibonim 3, Jerusalem\n
+    </string>
+
+    <string name="saturday_ap">
+
+        Saturday, Apr 2 2021  \n
+    </string>
+
+    <string name="some_id">10:00</string>
+    <string name="dayname_example">Saturday, Apr 2 2021</string>
+    <string name="location_example">Hatibonim 3, Jerusalem</string>
+    <string name="example_question">Is there a dinner today?</string>
+</resources>
