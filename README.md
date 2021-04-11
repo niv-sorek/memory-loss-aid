@@ -1,1 +1,1 @@
-# Android Application People with Short-term Memroy Loss
+# Android Application People with Short-term Memory Loss
